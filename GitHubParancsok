@@ -1,0 +1,11 @@
+apt-get install git-core git-doc git-gui gitk-instalállás
+
+
+git help
+git help <parancs> # pl git help commit- segítség
+
+
+git branch -d <branchname>
+git branch -D <branchname> # nem mergelt branch törlése
+
+ 
