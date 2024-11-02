@@ -1,11 +1,30 @@
-apt-get install git-core git-doc git-gui gitk-instalállás
+apt-get install git-core git-doc git-gui gitk           // instalállás
 
 
 git help
-git help <parancs> # pl git help commit- segítség
+git help <parancs> # pl git help commit         // segítség
 
 
 git branch -d <branchname>
 git branch -D <branchname> # nem mergelt branch törlése
 
  
+git config --global user.name "Vas Éva"     //beállítások-felhazsnálónév
+git config --global user.email "emailcimem@gmail.com"    //beállítások-email
+
+git init           //új git repository létrehozása
+
+git status       // változások listázása
+
+git add <filename>     // Fájl hozzáadása
+git mv <filename>      // Fájl áthelyezése
+git rm <filemane>      //Fájl törlése
+
+
+git commit   //változások mentése
+
+git log   //commitok listázása
+
+git diff    //változások megtekintése
+
+git blame <filename>    //File változások listázása
